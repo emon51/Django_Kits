@@ -1,0 +1,22 @@
+
+1. Create a new folder for example 'Django_Project'
+2. Open in CMD 
+3. Install virtual-Environment(>pip install virtualenv)
+4. >python -m virtualenv myenv
+5. >cd myenv 
+6. >cd Scripts 
+7. >activate 
+8. >pip install django
+9. >cd ..
+10. >cd .. #Go to 'Django_Project' Folder
+11. checking for django version (>python -m django --version)
+12. Start Project(>django-admin startproject [projectName, e.g., myproject]
+13. >cd myproject 
+14. Create app into myproject (>python manage.py startapp [appName, e.g., myapp]
+15. Run project on webserver (>python manage.py runserver)
+==========================================================================================================
+
+Note: Before create a superuser or If we perform any changes in database(models) we have to do migrate
+>python manage.py  makemigrations 
+>python manage.py migrate
+===========================================================================================================
