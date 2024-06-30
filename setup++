@@ -23,3 +23,10 @@ Note: Before create a superuser or If we perform any changes in database(models)
 #Create SuperUser 
 >python manage.py createsuperuser
 ===========================================================================================================
+
+===========================================================================================================
+#Add requirments.txt 
+Within Terminal: 
+PS E:\GigaTech> pip3 freeze > requirments.txt
+PS E:\GigaTech> 
+===========================================================================================================
